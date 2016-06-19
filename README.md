@@ -3,7 +3,7 @@
   
   
 # Insert Part
-  template <class KEY, class DATA, class COMP, class EE>
+template <class KEY, class DATA, class COMP, class EE>
 bool BTree<KEY,DATA,COMP,EE>::insert( const KEY& key, const DATA& data )
 {
     // if NULL root
